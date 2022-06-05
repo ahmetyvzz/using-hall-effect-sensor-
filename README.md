@@ -2,9 +2,9 @@
 ## Hall Effect Sensörün Arduino ile Kontrolünün Labview'da İzlenmesi
   Hall effect sensör, manyetik alanın büyüklüğü ile doğru orantılı olarak gerilim çıkışı veren bir sensördür. Hall effect sensörleri, aktif olarak bazı motorların (bldc motor vb.) içerisinde rotorun konumunu belirlemek için kullanılmaktadır. Projede, bu sensör mıknatıs ile kontrol ederek elde edilen 0-1023 arası veriler, Arduino üzerinden 0-100 arası verilere dönüştürülerek Labview'de farklı indikatörler üzerinden görülmesi sağlandı. 
 ### Devrede Kullanılan Malzemeler
-  -Arduino Uno
-  -49E Hall Effect Sensor
-  -Erkek - erkek jumper
+  - Arduino Uno
+  - 49E Hall Effect Sensor
+  - Erkek - erkek jumper
   
 ### LabVIEW Blok Diyagram 
    Arduino ile LABView haberleşmesi için Visa seri haberleşme protokolü kullanıldı. Bu protokol ile Arduino'nun bağlı olduğu port seçilerek Arduino verisinin LABView'e aktarılması sağlanır.
